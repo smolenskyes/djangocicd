@@ -2,7 +2,7 @@
 
 if [ -d "venv" ] 
 then
-    echo "Python virtual environment exists." 
+    echo "Python virtual environment exists!" 
 else
     python3 -m venv .venv
 fi
